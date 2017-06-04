@@ -10,7 +10,7 @@
     }
 }
 
-@media screen and (max-width: 550px) and (orientation: landscape) {
+@media screen and (max-width: 750px) and (orientation: landscape) {
     body {
         background-image: url("/images/ascend.jpg");
         background-repeat: no-repeat;

@@ -1,0 +1,35 @@
+@media screen and (max-width: 550px) and (orientation: portrait) {
+    body {
+        background-image: url("/images/portait-background-1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: black;
+        color: beige;
+        text-shadow: 1px 0px 1px beige;
+        padding: .5%;
+    }
+}
+
+@media screen and (max-width: 550px) and (orientation: landscape) {
+    body {
+        background-image: url("/images/ascend.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: black;
+        color: beige;
+        text-shadow: 1px 0px 1px beige;
+        padding: .5%;
+    }
+}
+
+@media screen and (min-width: 551px) {
+    body {
+        background-image: url("/images/mirror.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: black;
+        color: beige;
+        text-shadow: 1px 0px 1px beige;
+        padding: .5%;
+    }
+}
