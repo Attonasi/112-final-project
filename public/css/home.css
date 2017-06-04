@@ -1,9 +1,11 @@
 @media screen and (max-width: 550px) {
-    .row.homeLink {
-        margin-top: 40%;
+    .row.mobileHamburgerNav {
+        margin-bottom: 40%;
     }
 }
 
-.row.homeContent {
-    height: 180px;
+.homeContent {
+    width: 270px;
+    height: 220px;
+    margin: 2%;
 }

@@ -28,7 +28,7 @@
 
 @media screen and (min-width: 551px) {
     body {
-        background-image: url("https://attonasi.github.io/112-final-project/public/images/mirror.jpg");
+        background-image: url("https://attonasi.github.io/112-final-project/public/images/background-mirror.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-color: black;
@@ -45,6 +45,7 @@
     z-index: -5;
     opacity: .6;
     width: 80%;
+    height: 220px;
     border-radius: 5px;
 }
 
