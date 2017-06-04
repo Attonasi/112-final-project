@@ -10,18 +10,16 @@ const app = express();
 
 // app.use(bodyParser.json());
 // app.use(bodyParser.urlencoded({extended: true}));
-app.use(express.static('.'));
-//app.use(express.static('./public'));
+
+app.use(express.static('./public'));
 
 // Almost all URL's go to index
 app.get('*', function (request, response) {
     console.log('New request:', request.url);
-//    response.sendFile('public/index.html', {
-//        root: '.'
-//    });
-    response.sendFile('index.html', {
+    response.sendFile('public/index.html', {
         root: '.'
     });
+
 });
 
 // Port Listener

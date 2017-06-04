@@ -1,6 +1,6 @@
 @media screen and (max-width: 550px) and (orientation: portrait) {
     body {
-        background-image: url("/images/portait-background-1.jpg");
+        background-image: url("https://attonasi.github.io/112-final-project/public/images/portait-background-1.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-color: black;
@@ -12,7 +12,7 @@
 
 @media screen and (max-width: 750px) and (orientation: landscape) {
     body {
-        background-image: url("/images/ascend.jpg");
+        background-image: url("https://attonasi.github.io/112-final-project/public/images/ascend.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-color: black;
@@ -24,7 +24,7 @@
 
 @media screen and (min-width: 551px) {
     body {
-        background-image: url("/images/mirror.jpg");
+        background-image: url("https://attonasi.github.io/112-final-project/public/images/mirror.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-color: black;
@@ -33,3 +33,5 @@
         padding: .5%;
     }
 }
+
+.row.profileLink {}
