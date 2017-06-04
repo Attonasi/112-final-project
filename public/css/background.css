@@ -7,6 +7,8 @@
         color: beige;
         text-shadow: 1px 0px 1px beige;
         padding: .5%;
+        z-index: -10;
+        background-attachment: fixed;
     }
 }
 
@@ -19,6 +21,8 @@
         color: beige;
         text-shadow: 1px 0px 1px beige;
         padding: .5%;
+        z-index: -10;
+        background-attachment: fixed;
     }
 }
 
@@ -31,7 +35,26 @@
         color: beige;
         text-shadow: 1px 0px 1px beige;
         padding: .5%;
+        z-index: -10;
+        background-attachment: fixed;
     }
 }
 
-.row.profileLink {}
+.sectionBackgroundImage {
+    position: absolute;
+    z-index: -5;
+    opacity: .6;
+    width: 80%;
+    border-radius: 5px;
+}
+
+
+/*
+.row.homeLink {
+    background-image: url("https://attonasi.github.io/112-final-project/public/images/background1.jpg");
+    z-index: -5;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image
+}
+*/
