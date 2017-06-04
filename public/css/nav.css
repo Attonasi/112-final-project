@@ -2,6 +2,10 @@
     display: none;
 }
 
+.navigationDiv {
+    margin: .2%;
+}
+
 @media screen and (min-width: 551px) {
     .row.mobileHamburgerNav {
         display: none;
@@ -19,6 +23,9 @@
 }
 
 @media screen and (max-width: 550px) {
+    .row.mobileHamburgerNav {
+        margin-bottom: 40%;
+    }
     #fullNavBar {
         display: none;
     }

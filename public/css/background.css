@@ -1,61 +1,55 @@
 @media screen and (max-width: 550px) and (orientation: portrait) {
     body {
-        background-image: url("https://attonasi.github.io/112-final-project/public/images/portait-background-1.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-color: black;
+        background-color: beige;
         color: beige;
         text-shadow: 1px 0px 1px beige;
         padding: .5%;
+    }
+    .container {
+        background-image: url("https://attonasi.github.io/112-final-project/public/images/portrait-background-2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
         z-index: -10;
         background-attachment: fixed;
+        border: 3px solid beige;
+        border-radius: 10px
     }
 }
 
 @media screen and (max-width: 750px) and (orientation: landscape) {
     body {
+        background-color: beige;
+        color: beige;
+        text-shadow: 1px 0px 1px beige;
+        padding: .5%;
+    }
+    .container {
         background-image: url("https://attonasi.github.io/112-final-project/public/images/ascend.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-color: black;
-        color: beige;
-        text-shadow: 1px 0px 1px beige;
-        padding: .5%;
         z-index: -10;
         background-attachment: fixed;
+        border: 2px solid beige;
+        border-radius: 10px;
     }
 }
 
-@media screen and (min-width: 551px) {
+@media screen and (min-width: 960px) {
     body {
+        background-color: beige;
+        color: beige;
+        text-shadow: 1px 0px 1px beige;
+        padding: .5%;
+    }
+    .container {
         background-image: url("https://attonasi.github.io/112-final-project/public/images/background-mirror.jpg");
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         background-color: black;
-        color: beige;
-        text-shadow: 1px 0px 1px beige;
-        padding: .5%;
         z-index: -10;
         background-attachment: fixed;
+        border: 2px solid beige;
+        border-radius: 10px;
     }
 }
-
-.sectionBackgroundImage {
-    position: absolute;
-    z-index: -5;
-    opacity: .6;
-    width: 80%;
-    height: 220px;
-    border-radius: 5px;
-}
-
-
-/*
-.row.homeLink {
-    background-image: url("https://attonasi.github.io/112-final-project/public/images/background1.jpg");
-    z-index: -5;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-image
-}
-*/

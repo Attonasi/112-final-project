@@ -1,11 +1,37 @@
 @media screen and (max-width: 550px) {
-    .row.mobileHamburgerNav {
-        margin-bottom: 40%;
+    .homeContent {
+        width: 305px;
+        height: 220px;
+        margin: 2%;
+    }
+    .homeContent:hover {
+        border: 2px solid beige;
+    }
+    .sectionBackgroundImage {
+        position: absolute;
+        z-index: -5;
+        opacity: .6;
+        width: auto;
+        height: 220px;
+        border-radius: 5px;
+    }
+    .homePage {
+        div:nth-of-type(even)
     }
 }
 
-.homeContent {
-    width: 270px;
-    height: 220px;
-    margin: 2%;
+@media screen and (min-width: 960px) {
+    .homeContent {
+        width: 400px;
+        height: 280px;
+        margin: 2%;
+    }
+    .sectionBackgroundImage {
+        position: absolute;
+        z-index: -5;
+        opacity: .6;
+        width: auto;
+        width: 400px;
+        border-radius: 5px;
+    }
 }
