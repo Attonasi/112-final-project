@@ -43,7 +43,7 @@ $(function () {
     //    End Page Class Links
 
     //    Toggle for the login page forms
-    $('.message').click(function () {
+    $('.message a').click(function () {
         $('form').animate({
             height: 'toggle',
             opacity: 'toggle'
