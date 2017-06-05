@@ -15,8 +15,8 @@
         height: 220px;
         border-radius: 5px;
     }
-    .homePage {
-        div:nth-of-type(even)
+    .homeContent.right {
+        float: right;
     }
 }
 

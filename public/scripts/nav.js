@@ -2,6 +2,8 @@
 
 $(function () {
 
+
+
     var $current = `.homePage`;
 
     $('.row.mobileHamburgerNav').click(function () {
@@ -38,6 +40,6 @@ $(function () {
     })
 
 
-
+    console.log('arg', $current);
 
 });
