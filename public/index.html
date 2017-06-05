@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="css/background.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/account.css">
+    <link rel="stylesheet" href="css/profile.css">
 
     <!-- Favicon  ---––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="icon" type="image/png" href="images/lion.png">
@@ -68,13 +69,13 @@
                 <div class="two columns">
                     <img class="accountLink navIcon" src="https://attonasi.github.io/112-final-project/public/images/lock-icon.jpg">
                 </div>
-                                <div class="two columns">
+                <div class="two columns">
                     <img class="profileLink navIcon" src="https://attonasi.github.io/112-final-project/public/images/profile-icon.jpg">
                 </div>
                 <div class="two columns">
                     <img class="contactLink navIcon" src="https://attonasi.github.io/112-final-project/public/images/postad.jpg">
                 </div>
-        
+
             </div>
 
         </div>
@@ -140,7 +141,25 @@
         </div>
 
         <div class="profilePage hidden">
-            <h1>Profile Page</h1>
+            <div class="profileField">
+                <div class="profileDisplay profileContent">
+                    <div class="profilePictureContainer">
+                        <img src="images/defaultprofile.jpg" alt="default profile picture" class="profilePicture">
+                    </div>
+                    <div class="nameDisplay">
+                        <input type="text" id="nameDisplayField" placeholder="Retype New ID(Email Address)" />
+                    </div>
+                    <input type="text" id="newEmailAddress2" placeholder="Retype New ID(Email Address)" />
+                </div>
+                <form class="profileEnter profileContent">
+                    <div class="enterFieldDiv">
+                        <p class="enterFieldDescription">Your Name:</p><input type="text" id="userNameEnter" placeholder="Name" class="enterFieldInput" />
+                    </div>
+                    <input type="text" id="userEmailEnter" placeholder="Retype New ID(Email Address)" />
+
+                    <input type="text" id="newEmailAddress2" placeholder="Retype New ID(Email Address)" />
+                </form>
+            </div>
         </div>
 
         <div class="contactPage hidden">
@@ -151,6 +170,7 @@
     </div>
 
     <script type="text/javascript" src="scripts/nav.js"></script>
+    <script type="text/javascript" src="scripts/profile.js"></script>
     <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>

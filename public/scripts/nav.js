@@ -6,10 +6,6 @@ $(function () {
     //    current page variable
     var $current = `.homePage`;
 
-    //    toggles the hamburger menu on the mobile display, the hamburger is actually a lion
-    $('.row.mobileHamburgerNav').click(function () {
-        $('#navMenu').fadeToggle();
-    });
 
     //    These are the navigation link classes. any object with these classes becomes a "link" to that page.
     $(`.homeLink`).click(function (event) {

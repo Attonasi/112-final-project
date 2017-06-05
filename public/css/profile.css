@@ -1,0 +1,63 @@
+@media screen and (min-width: 551px) {
+    .profileField {
+        padding: 2%;
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .profileField {
+        padding: 3%;
+        width: 95%;
+    }
+}
+
+.profileContent {
+    margin: 0 auto;
+    padding: 1%;
+    border: 2px solid beige;
+    border-radius: 10px;
+}
+
+.profileEnter {
+    color: black;
+}
+
+.profilePicture {
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 80px;
+    background-color: beige;
+}
+
+.profilePictureContainer {
+    width: 60%;
+    /*    height: 200px;*/
+    border: 2px solid beige;
+    background-color: beige;
+    border-radius: 10px;
+    opacity: .7;
+    margin-bottom: 3%;
+    float: left;
+}
+
+.nameDisplay {
+    width: 38%;
+    float: right;
+}
+
+.profileDisplay input {
+    background-color: black;
+    opacity: .9;
+    border: none;
+}
+
+.enterFieldDescription {
+    width: 28%;
+    float: left;
+}
+
+.enterFieldInput {
+    width: 70%;
+    float: right;
+}
