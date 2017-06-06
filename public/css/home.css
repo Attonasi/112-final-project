@@ -6,7 +6,7 @@
     }
     .homeContent:hover {
         border-radius: 10px;
-        border: 2px solid beige;
+        border: 2px solid silver;
     }
     .sectionBackgroundImage {
         position: absolute;
@@ -30,7 +30,7 @@
         margin: 2%;
     }
     .homeContent:hover {
-        border: 2px solid beige;
+        border: 2px solid silver;
         border-radius: 10px;
     }
     .sectionBackgroundImage {
@@ -53,7 +53,7 @@
     }
     .homeContent:hover {
         border-radius: 10px;
-        border: 2px solid beige;
+        border: 2px solid silver;
         opacity: 1;
     }
     .sectionBackgroundImage {

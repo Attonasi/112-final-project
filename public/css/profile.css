@@ -15,49 +15,55 @@
 .profileContent {
     margin: 0 auto;
     padding: 1%;
-    border: 2px solid beige;
+    border: 2px solid silver;
     border-radius: 10px;
 }
 
 .profileEnter {
     color: black;
+    text-align: right;
 }
 
 .profilePicture {
     margin: 0 auto;
     width: 100%;
     border-radius: 80px;
-    background-color: beige;
+    background-color: silver;
 }
 
 .profilePictureContainer {
     width: 60%;
     /*    height: 200px;*/
-    border: 2px solid beige;
-    background-color: beige;
+    border: 2px solid silver;
+    background-color: silver;
     border-radius: 10px;
     opacity: .7;
     margin-bottom: 3%;
     float: left;
 }
 
-.nameDisplay {
+.smallProfileDisplayField {
     width: 38%;
     float: right;
+}
+
+.profileDisplayField {
+    width: 95%;
 }
 
 .profileDisplay input {
     background-color: black;
     opacity: .9;
     border: none;
+    font-size: 11px;
 }
 
 .enterFieldDescription {
     width: 28%;
-    float: left;
+    clear: right;
 }
 
 .enterFieldInput {
     width: 70%;
-    float: right;
+    /*    float: right;*/
 }

@@ -1,8 +1,8 @@
 @media screen and (max-width: 550px) {
     body {
-        background-color: beige;
-        color: beige;
-        text-shadow: 1px 0px 1px beige;
+        background-color: silver;
+        color: silver;
+        text-shadow: 1px 0px 1px silver;
         padding: .5%;
     }
     .container {
@@ -11,16 +11,16 @@
         background-size: cover;
         /*        z-index: -10;*/
         background-attachment: fixed;
-        border: 3px solid beige;
+        border: 3px solid silver;
         border-radius: 10px
     }
 }
 
 @media screen and (min-width: 551px) and (max-width: 959px) {
     body {
-        background-color: beige;
-        color: beige;
-        text-shadow: 1px 0px 1px beige;
+        background-color: silver;
+        color: silver;
+        text-shadow: 1px 0px 1px silver;
         padding: .5%;
     }
     .container {
@@ -30,16 +30,16 @@
         background-color: black;
         /*        z-index: -10;*/
         background-attachment: fixed;
-        border: 2px solid beige;
+        border: 2px solid silver;
         border-radius: 10px;
     }
 }
 
 @media screen and (min-width: 960px) {
     body {
-        background-color: beige;
-        color: beige;
-        text-shadow: 1px 0px 1px beige;
+        background-color: silver;
+        color: silver;
+        text-shadow: 1px 0px 1px silver;
         padding: .5%;
     }
     .container {
@@ -49,7 +49,7 @@
         background-color: black;
         /*        z-index: -10;*/
         background-attachment: fixed;
-        border: 2px solid beige;
+        border: 2px solid silver;
         border-radius: 10px;
     }
 }

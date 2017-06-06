@@ -67,13 +67,13 @@
                     <img class="homeLink navIcon" src="https://attonasi.github.io/112-final-project/public/images/home-icon.jpg">
                 </div>
                 <div class="two columns">
-                    <img class="accountLink navIcon" src="https://attonasi.github.io/112-final-project/public/images/lock-icon.jpg">
+                    <img class="accountLink navIcon" src="https://attonasi.github.io/112-final-project/public/images/lockicon.jpg">
                 </div>
                 <div class="two columns">
-                    <img class="profileLink navIcon" src="https://attonasi.github.io/112-final-project/public/images/profile-icon.jpg">
+                    <img class="profileLink navIcon" src="images/profileicon.png">
                 </div>
                 <div class="two columns">
-                    <img class="contactLink navIcon" src="https://attonasi.github.io/112-final-project/public/images/postad.jpg">
+                    <img class="contactLink navIcon" src="https://attonasi.github.io/112-final-project/public/images/postad.png">
                 </div>
 
             </div>
@@ -142,22 +142,37 @@
 
         <div class="profilePage hidden">
             <div class="profileField">
-                <div class="profileDisplay profileContent">
+                <form class="profileDisplay profileContent">
                     <div class="profilePictureContainer">
                         <img src="images/defaultprofile.jpg" alt="default profile picture" class="profilePicture">
                     </div>
-                    <div class="nameDisplay">
-                        <input type="text" id="nameDisplayField" placeholder="Retype New ID(Email Address)" />
+                    <div class="smallProfileDisplayField">
+                        <input type="text" id="nameEnterDisplayField" placeholder="Enter Name" />
                     </div>
-                    <input type="text" id="newEmailAddress2" placeholder="Retype New ID(Email Address)" />
-                </div>
+                    <div class="smallProfileDisplayField">
+                        <input type="text" id="titleEnterDisplayField" placeholder="Enter Title" />
+                    </div>
+                    <div class="smallProfileDisplayField">
+                        <input type="text" id="phoneEnterDisplayField" placeholder="Enter Phone Number" />
+                    </div>
+                    <div class="fullProfileDisplayField">
+                        <input type="text" id="emailEnterDisplayField" placeholder="Enter Email Address" />
+                    </div>
+                </form>
                 <form class="profileEnter profileContent">
                     <div class="enterFieldDiv">
-                        <p class="enterFieldDescription">Your Name:</p><input type="text" id="userNameEnter" placeholder="Name" class="enterFieldInput" />
+                        Your Name:<input type="text" id="nameEnter" placeholder="Name" class="enterFieldInput" />
                     </div>
-                    <input type="text" id="userEmailEnter" placeholder="Retype New ID(Email Address)" />
+                    <div class="enterFieldDiv">
+                        Title:<input type="text" id="titleEnter" placeholder="Name" class="enterFieldInput" />
+                    </div>
+                    <div class="enterFieldDiv">
+                        Phone:<input type="text" id="phoneEnter" placeholder="Name" class="enterFieldInput" />
+                    </div>
+                    <div class="enterFieldDiv">
+                        Email:<input type="text" id="emailEnter" placeholder="Name" class="enterFieldInput" />
+                    </div>
 
-                    <input type="text" id="newEmailAddress2" placeholder="Retype New ID(Email Address)" />
                 </form>
             </div>
         </div>

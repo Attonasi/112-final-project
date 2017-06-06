@@ -1,10 +1,13 @@
 'use strict';
 
+'use strict';
+
 $(function () {
-    $('#userNameEnter').change(function () {
+
+    $('.profileEnter').change(function () {
         console.log('field changed', );
 
-        $('#nameDisplayField').val($(this).val());
+        $('#nameEnterDisplayField').val($('#nameEnter').val());
 
 
     });
