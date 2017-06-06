@@ -6,6 +6,7 @@ $(function () {
         $(`#${event.target.id}DisplayField`).val($(`#${event.target.id}`).val());
     });
 
+
     $('#urlEnter').click(function () {
         var $newPic = $('#profileEnter').val();
         $(`#pictureEnterDisplayField`).attr('src', $newPic);

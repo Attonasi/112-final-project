@@ -20,6 +20,10 @@
     .navIcon {
         width: 40px;
     }
+    .lionLogo {
+        width: 60px;
+        border-radius: 10px;
+    }
 }
 
 @media screen and (min-width: 551px) {
@@ -38,5 +42,9 @@
         width: 6em;
         border-radius: 10px;
         float: left;
+    }
+    lionLogo {
+        width: 100px;
+        border-radius: 10px;
     }
 }
