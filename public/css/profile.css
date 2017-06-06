@@ -34,7 +34,6 @@
 
 .profilePictureContainer {
     width: 60%;
-    /*    height: 200px;*/
     border: 2px solid silver;
     background-color: silver;
     border-radius: 10px;
@@ -51,12 +50,13 @@
 
 .largeProfileDisplay {
     width: 95%;
+    height: 250px;
     background-color: black;
     border: none;
     font-size: 12px;
 }
 
-.profileDisplay input {
+.smallProfileDisplay {
     background-color: black;
     opacity: 1;
     border: none;
