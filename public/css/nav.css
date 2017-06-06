@@ -11,7 +11,7 @@
         display: none;
     }
     .row.mobileHamburgerNav {
-        margin-bottom: 30%;
+        margin-bottom: 20%;
     }
     .navMenuIcon {
         width: 4em;
@@ -27,7 +27,7 @@
         display: none;
     }
     #fullNavBar {
-        margin-bottom: 25%;
+        margin-bottom: 15%;
     }
     button {
         width: 90%;

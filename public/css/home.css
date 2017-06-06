@@ -1,6 +1,6 @@
 @media screen and (max-width: 550px) {
     .homeContent {
-        width: 305px;
+        width: 280px;
         height: 220px;
         margin: 2%;
     }
@@ -58,12 +58,12 @@
     }
     .sectionBackgroundImage {
         position: absolute;
-        opacity: .5;
+        opacity: .3;
         width: auto;
         width: 400px;
         border-radius: 5px;
     }
     .sectionBackgroundImage:hover {
-        opacity: .2;
+        opacity: .05;
     }
 }

@@ -91,7 +91,7 @@
             </div>
 
             <div class="row accountLink">
-                <div class="homeContent right">
+                <div class="homeContent">
                     <img src="https://attonasi.github.io/112-final-project/public/images/background2.jpg" class="sectionBackgroundImage">
                     <h4>Account</h4>
                     <p>Manage your account. Here you can create an account and join the team. Keep your login and contact information up to date.</p>
@@ -109,7 +109,7 @@
             </div>
 
             <div class="row contactLink">
-                <div class="homeContent right">
+                <div class="homeContent">
                     <img src="https://attonasi.github.io/112-final-project/public/images/backgroundpic.jpg" class="sectionBackgroundImage">
                     <h4>Contact Information</h4>
                     <p>This page is a link to my personal information. There is detailed information about how to contact me and set up appointments as well as my training background and skills. </p>
@@ -122,17 +122,17 @@
             <div class="login-page">
                 <div class="form">
                     <form class="register-form">
-                        <input type="text" id="newEmailAddress1" placeholder="New Login ID(Email Address)" />
-                        <input type="text" id="newEmailAddress2" placeholder="Retype New ID(Email Address)" />
-                        <input type="password" id="newPassWord1" placeholder="Password" />
-                        <input type="password" id="newPassWord2" placeholder="Retype Password" />
+                        <input type="text" id="newEmailAddress1" placeholder="New Login ID(Email Address)" class="accountInput" />
+                        <input type="text" id="newEmailAddress2" placeholder="Retype New ID(Email Address)" class="accountInput" />
+                        <input type="password" id="newPassWord1" placeholder="Password" class="accountInput" />
+                        <input type="password" id="newPassWord2" placeholder="Retype Password" class="accountInput" />
 
                         <button id="createAccountButton">Create your account!</button>
                         <p class="message">Already registered? <a href="#">Sign In!</a></p>
                     </form>
                     <form class="login-form">
-                        <input type="text" id="nameEnter" placeholder="Username" />
-                        <input type="password" id="userPasswordAttempt" placeholder="Password" />
+                        <input type="text" id="nameEnter" placeholder="Username" class="accountInput" />
+                        <input type="password" id="userPasswordAttempt" placeholder="Password" class="accountInput" />
                         <button id="loginButton">Login!</button>
                         <p class="message">Not registered? <a href="#">Create an account!</a></p>
                     </form>
@@ -144,33 +144,48 @@
             <div class="profileField">
                 <form class="profileDisplay profileContent">
                     <div class="profilePictureContainer">
-                        <img src="images/defaultprofile.jpg" alt="default profile picture" class="profilePicture">
+                        <img src="images/defaultprofile.jpg" id="pictureEnterDisplayField" alt="default profile picture" class="profilePicture">
                     </div>
                     <div class="smallProfileDisplayField">
-                        <input type="text" id="nameEnterDisplayField" placeholder="Enter Name" />
+                        <input type="text" id="bargleEnterDisplayField" placeholder="Enter Name" class="smallProfileDisplay" required/>
                     </div>
                     <div class="smallProfileDisplayField">
-                        <input type="text" id="titleEnterDisplayField" placeholder="Enter Title" />
+                        <input type="text" id="titleEnterDisplayField" placeholder="Enter Title" class="smallProfileDisplay" required/>
                     </div>
                     <div class="smallProfileDisplayField">
-                        <input type="text" id="phoneEnterDisplayField" placeholder="Enter Phone Number" />
+                        <input type="text" id="phoneEnterDisplayField" placeholder="Enter Phone Number" class="smallProfileDisplay" required/>
                     </div>
-                    <div class="fullProfileDisplayField">
-                        <input type="text" id="emailEnterDisplayField" placeholder="Enter Email Address" />
+                    <div class="smallProfileDisplayField">
+                        <input type="text" id="emailEnterDisplayField" placeholder="Enter Email Address" class="smallProfileDisplay" required/>
                     </div>
+                    <div class="largeProfileDisplayField">
+                        <textarea type="text" id="goalsEnterDisplayField" placeholder="Your fitness goals" class="largeProfileDisplay"></textarea>
+                    </div>
+
+                    <button type="submit" class="submitFormButton" id="submitForm">Click here to update your Profile</button>
                 </form>
+
+
+
                 <form class="profileEnter profileContent">
                     <div class="enterFieldDiv">
-                        Your Name:<input type="text" id="nameEnter" placeholder="Name" class="enterFieldInput" />
+                        <input type="text" id="bargleEnter" placeholder="Name" class="enterFieldInput" />
                     </div>
                     <div class="enterFieldDiv">
-                        Title:<input type="text" id="titleEnter" placeholder="Name" class="enterFieldInput" />
+                        <input type="url" id="profileEnter" placeholder="Profile Picture Url" class="enterFieldInput" /><button class="enterFieldButton" type="button" id="urlEnter">Change Picture</button>
+                    </div>
+
+                    <div class="enterFieldDiv">
+                        <input type="text" id="titleEnter" placeholder="Title" class="enterFieldInput" />
                     </div>
                     <div class="enterFieldDiv">
-                        Phone:<input type="text" id="phoneEnter" placeholder="Name" class="enterFieldInput" />
+                        <input type="text" id="phoneEnter" placeholder="Phone" class="enterFieldInput" />
                     </div>
                     <div class="enterFieldDiv">
-                        Email:<input type="text" id="emailEnter" placeholder="Name" class="enterFieldInput" />
+                        <input type="text" id="emailEnter" placeholder="Email" class="enterFieldInput" />
+                    </div>
+                    <div class="enterFieldDiv">
+                        <textarea type="text" id="goalsEnter" placeholder="Type a short description of your fitness goals here" class="enterFieldInputLarge"></textarea>
                     </div>
 
                 </form>
@@ -178,7 +193,24 @@
         </div>
 
         <div class="contactPage hidden">
-            <h1>Contact Page</h1>
+            <div class="profilePictureContainer">
+                <img src="images/profilepic.jpg" id="pictureEnterDisplayField" alt="default profile picture" class="profilePicture">
+            </div>
+            <div class="smallProfileDisplayField">
+                <input type="text" id="bargleCollinsProfile" placeholder="Enter Name" class="smallProfileDisplay" required/>
+            </div>
+            <div class="smallProfileDisplayField">
+                <input type="text" id="titleCollinsProfile" placeholder="Enter Title" class="smallProfileDisplay" required/>
+            </div>
+            <div class="smallProfileDisplayField">
+                <input type="text" id="phoneCollinsProfile" placeholder="Enter Phone Number" class="smallProfileDisplay" required/>
+            </div>
+            <div class="smallProfileDisplayField">
+                <input type="text" id="emailCollinsProfile" placeholder="Enter Email Address" class="smallProfileDisplay" required/>
+            </div>
+            <div class="largeProfileDisplayField">
+                <textarea type="text" id="goalsCollinsProfile" placeholder="Your fitness goals" class="largeProfileDisplay"></textarea>
+            </div>
         </div>
 
 
