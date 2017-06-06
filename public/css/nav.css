@@ -19,6 +19,8 @@
     }
     .navIcon {
         width: 40px;
+        height: 40px;
+        border-radius: 3px;
     }
     .lionLogo {
         width: 60px;
