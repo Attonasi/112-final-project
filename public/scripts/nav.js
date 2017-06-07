@@ -16,4 +16,15 @@ $(function () {
 
     console.log($current);
 
+//    $('.slideWindow').click(function () {
+//        
+//        $('slideWindow').toggle(function () {
+//
+//            console.log('clicked slide button');
+//
+//        }, function () {
+//            console.log('clicked slide button again');
+//        });
+//
+//    });
 });
