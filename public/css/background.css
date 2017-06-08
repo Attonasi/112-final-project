@@ -1,8 +1,8 @@
 @media screen and (max-width: 550px) {
     body {
-        background-color: silver;
-        color: silver;
-        text-shadow: 1px 0px 1px silver;
+        background-color: beige;
+        color: beige;
+        text-shadow: 1px 0px 1px beige;
     }
     .container {
         background-image: url("https://attonasi.github.io/112-final-project/public/images/portrait-background-1.jpg");
@@ -10,15 +10,16 @@
         background-size: cover;
         /*        z-index: -10;*/
         background-attachment: fixed;
-        border-radius: 10px
+        border-radius: 10px;
+        margin 0 auto;
     }
 }
 
 @media screen and (min-width: 551px) and (max-width: 959px) {
     body {
-        background-color: silver;
-        color: silver;
-        text-shadow: 1px 0px 1px silver;
+        background-color: beige;
+        color: beige;
+        text-shadow: 1px 0px 1px beige;
         padding: .5%;
     }
     .container {
@@ -28,16 +29,16 @@
         background-color: black;
         /*        z-index: -10;*/
         background-attachment: fixed;
-        border: 2px solid silver;
+        border: 2px solid beige;
         border-radius: 10px;
     }
 }
 
 @media screen and (min-width: 960px) {
     body {
-        background-color: silver;
-        color: silver;
-        text-shadow: 1px 0px 1px silver;
+        background-color: beige;
+        color: beige;
+        text-shadow: 1px 0px 1px beige;
         padding: .5%;
     }
     .container {
@@ -47,7 +48,7 @@
         background-color: black;
         /*        z-index: -10;*/
         background-attachment: fixed;
-        border: 2px solid silver;
+        border: 2px solid beige;
         border-radius: 10px;
     }
 }

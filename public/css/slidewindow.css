@@ -1,25 +1,16 @@
-@media screen and (max-width: 550px) {
-    .slideWindow {
-        position: absolute;
-        top: 100px;
-        right: -120px;
-        display: none;
-    }
-}
-
-@media screen and (min-width: 551px) {
-    .slideWindow {}
-}
-
 .slideWindow {
     border: 2px solid white;
     border-radius: 10px;
+    position: absolute;
+    top: 100px;
+    right: -120px;
+    display: none;
 }
 
 .slideButton {
     width: 40px;
     border-radius: 10px;
-    border: 2px solid silver;
+    border: 2px solid beige;
     margin: 0;
     position: absolute;
     top: 100px;
@@ -29,5 +20,5 @@
 
 .slideContent {
     margin: 0;
-    border: 2px solid silver;
+    border: 2px solid beige;
 }

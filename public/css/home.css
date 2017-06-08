@@ -6,7 +6,7 @@
     }
     .homeContent:hover {
         border-radius: 10px;
-        border: 2px solid silver;
+        border: 2px solid beige;
     }
     .sectionBackgroundImage {
         position: absolute;
@@ -18,9 +18,6 @@
     .sectionBackgroundImage:hover {
         opacity: .2;
     }
-    .homeContent.right {
-        float: right;
-    }
 }
 
 @media screen and (min-width: 551px) and (max-width: 959px) {
@@ -30,7 +27,7 @@
         margin: 2%;
     }
     .homeContent:hover {
-        border: 2px solid silver;
+        border: 2px solid beige;
         border-radius: 10px;
     }
     .sectionBackgroundImage {
@@ -43,6 +40,13 @@
     .sectionBackgroundImage:hover {
         opacity: .2;
     }
+    .homeWidget {
+        position: absolute;
+        right: 3%;
+        top: 25%;
+        border: 2px solid beige;
+        border-radius: 10px;
+    }
 }
 
 @media screen and (min-width: 960px) {
@@ -50,10 +54,11 @@
         width: 400px;
         height: 280px;
         margin: 2%;
+        clear: right;
     }
     .homeContent:hover {
         border-radius: 10px;
-        border: 2px solid silver;
+        border: 2px solid beige;
         opacity: 1;
     }
     .sectionBackgroundImage {
@@ -65,5 +70,21 @@
     }
     .sectionBackgroundImage:hover {
         opacity: .05;
+    }
+    .homeWidget {
+        position: absolute;
+        right: 3%;
+        top: 20%;
+        background-image: url("../images/backgroundpic.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+        padding: 2%;
+    }
+    .homeWidget:hover {
+        border: 2px solid beige;
+    }
+    .homeWidget p {
+        margin: 0;
     }
 }
