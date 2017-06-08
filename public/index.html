@@ -36,10 +36,26 @@
 
     <!--    libraries ------------------------------------------------>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js" integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
+
+    <!--    facebook feed code-->
+
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+    </script>
 
     <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -230,20 +246,20 @@
             </div>
         </div>
 
+        <div class="leftColumn">
+            <img src="images/facebookbutton.png" alt="slide button" class="slideButton">
+        </div>
+
         <div class="slideWindow">
-            <div class="leftColumn">
-                <img src="images/slidebutton.png" alt="slide button" class="slideButton">
-            </div>
-            <div class="centerColumn">
-                <div class="slideContent">
-                    <img src="images/slidecontent.png" alt="slide content" class="slideContent">
-                </div>
-            </div>
-            <div class="rightColumn">
-                <img src="images/rightcontent.png" alt="right bar content" class="rightContent">
+
+            <div class="fb-post" data-href="https://www.facebook.com/collin.smith.5209/posts/1362693777158584" data-width="350" data-show-text="false">
+                <blockquote cite="https://www.facebook.com/collin.smith.5209/posts/1362693777158584" class="fb-xfbml-parse-ignore">
+                    <p>Learning to use Facebook. Just posting a pic of the redkneck punching bag.</p>Posted by <a href="https://www.facebook.com/collin.smith.5209">Collin Smith</a> on&nbsp;<a href="https://www.facebook.com/collin.smith.5209/posts/1362693777158584">Wednesday, June 7, 2017</a></blockquote>
             </div>
 
         </div>
+
+    </div>
 
 
     </div>

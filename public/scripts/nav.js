@@ -16,15 +16,15 @@ $(function () {
 
     console.log($current);
 
-//    $('.slideWindow').click(function () {
-//        
-//        $('slideWindow').toggle(function () {
-//
-//            console.log('clicked slide button');
-//
-//        }, function () {
-//            console.log('clicked slide button again');
-//        });
-//
-//    });
+    $('.slideButton').click(function () {
+
+        $('.slideWindow').toggle('slide', {
+            direction: 'right'
+        });
+
+        console.log('clicked slide button');
+
+
+    });
+
 });

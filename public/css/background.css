@@ -3,7 +3,6 @@
         background-color: silver;
         color: silver;
         text-shadow: 1px 0px 1px silver;
-        padding: .5%;
     }
     .container {
         background-image: url("https://attonasi.github.io/112-final-project/public/images/portrait-background-1.jpg");
@@ -11,7 +10,6 @@
         background-size: cover;
         /*        z-index: -10;*/
         background-attachment: fixed;
-        border: 3px solid silver;
         border-radius: 10px
     }
 }
