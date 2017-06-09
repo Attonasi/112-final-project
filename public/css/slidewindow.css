@@ -30,6 +30,6 @@
 
 @media and screen and (min-width: 551px) {
     .slideWindow {
-        right: 0px;
+        left: 300px;
     }
 }
