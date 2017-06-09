@@ -3,7 +3,6 @@
     border-radius: 10px;
     position: absolute;
     top: 100px;
-    right: -120px;
     display: none;
 }
 
@@ -21,4 +20,16 @@
 .slideContent {
     margin: 0;
     border: 2px solid beige;
+}
+
+@media and screen and (max-width: 550px) {
+    .slideWindow {
+        right: -120px;
+    }
+}
+
+@media and screen and (min-width: 551px) {
+    .slideWindow {
+        right: 0px;
+    }
 }
