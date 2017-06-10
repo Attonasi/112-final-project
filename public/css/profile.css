@@ -1,7 +1,7 @@
 @media screen and (min-width: 551px) {
     .profileField {
         padding: 2%;
-        width: 56%;
+        width: 45%;
     }
 }
 
@@ -82,4 +82,21 @@
 
 .contactPage textarea {
     height: 200px;
+}
+
+.calenderInput {
+    background-color: black;
+    margin: 4%;
+}
+
+.instructorCalender {
+    width: 100%;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    text-align: center;
 }

@@ -65,13 +65,30 @@
         <!--       nav bar for 550+  -->
         <div class="navigationDiv">
             <div class="row" id="fullNavBar">
+
+
                 <div class="two columns">
                     <img src="images/lion.png" alt="lion" class="lionLogo navigationLink" id="home">
                 </div>
-                <div class="two columns navigationLink"><button id="workout">Workout</button></div>
-                <div class="two columns navigationLink"><button id="account">Log In</button></div>
-                <div class="two columns navigationLink"><button id="profile">Profile</button></div>
-                <div class="two columns navigationLink"><button id="contact">Contact</button></div>
+                <div class="two columns navigationLink">
+                    <button id="workout">Workout</button>
+                </div>
+
+
+                <div class="two columns navigationLink">
+                    <button id="account">Log In</button>
+                </div>
+
+                <div class="two columns navigationLink">
+                    <button id="profile">Profile</button>
+                </div>
+
+                <div class="two columns navigationLink">
+                    <button id="contact">Contact</button>
+                </div>
+
+
+                </ul>
 
             </div>
 
@@ -132,7 +149,9 @@
                     <h1>Contact Information</h1>
                     <p>This page is a link to my personal information. There is detailed information about how to contact me and set up appointments as well as my training background and skills. </p>
                 </div>
-
+                <div class="leftColumn">
+                    <img src="images/facebookbutton2.png" alt="slide button" class="slideButton">
+                </div>
 
             </div>
         </div>
@@ -246,8 +265,18 @@
         </div>
 
         <div class="contactPage hidden">
-            <div class="profileField">
-                <h1>Wherever you go - There you are</h1>
+
+            <div class="instructorTableDiv profileField u-pull-right u-cf">
+                <h1>My Schedule</h1>
+                <input type="date" id="calenderMonth" class="calenderInput">
+                <table class="instructorCalender"></table>
+            </div>
+
+
+            <div class="profileField u-cf">
+
+
+                <!--               <h2>Wherever you go - There you are</h2>-->
                 <div class="profilePictureContainer">
                     <img src="images/profilepic.jpg" id="pictureEnterDisplayField" alt="default profile picture" class="profilePicture">
                 </div>
@@ -263,15 +292,20 @@
                 <div class="smallProfileDisplayField">
                     <input type="text" id="emailCollinsProfile" placeholder="Enter Email Address" class="smallProfileDisplay" required/>
                 </div>
-                <div class="largeProfileDisplayField">
-                    <textarea type="text" id="goalsCollinsProfile" placeholder="Your fitness goals" class="largeProfileDisplay instructorProfile"></textarea>
+                <div class="smallProfileDisplayField">
+                    <ul class="smallProfileDisplay">My Fitness Goals:
+                        <li>1300lbs totl weight.</li>
+                        <li>29 inch waste.</li>
+                        <li>Able to kick/punch tires indefinitely.</li>
+                    </ul>
                 </div>
+
+                <div class="twelve columns instructorProfileTarget"></div>
+
             </div>
         </div>
 
-        <div class="leftColumn">
-            <img src="images/facebookbutton2.png" alt="slide button" class="slideButton">
-        </div>
+
 
         <div class="slideWindow">
 
@@ -282,15 +316,13 @@
 
         </div>
 
-    </div>
 
 
-    </div>
-
-    <script type="text/javascript" src="scripts/nav.js"></script>
-    <script type="text/javascript" src="scripts/profile.js"></script>
-    <script type="text/javascript" src="scripts/login.js"></script>
-    <!-- End Document
+        <script type="text/javascript" src="scripts/nav.js"></script>
+        <script type="text/javascript" src="scripts/profile.js"></script>
+        <script type="text/javascript" src="scripts/login.js"></script>
+        <script type="text/javascript" src="scripts/calender.js"></script>
+        <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 
