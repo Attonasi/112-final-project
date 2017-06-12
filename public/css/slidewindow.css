@@ -1,0 +1,35 @@
+.slideWindow {
+    border: 2px solid white;
+    border-radius: 10px;
+    position: absolute;
+    top: 100px;
+    display: none;
+}
+
+.slideButton {
+    width: 40px;
+    border-radius: 10px;
+    border: 2px solid beige;
+    margin: 0;
+    position: absolute;
+    top: 100px;
+    right: -10px;
+    z-index: 2;
+}
+
+.slideContent {
+    margin: 0;
+    border: 2px solid beige;
+}
+
+@media and screen and (max-width: 550px) {
+    .slideWindow {
+        right: -120px;
+    }
+}
+
+@media and screen and (min-width: 551px) {
+    .slideWindow {
+        left: 300px;
+    }
+}

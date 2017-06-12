@@ -1,0 +1,21 @@
+.workoutImage {
+    float: right;
+    clear: left;
+}
+
+.workoutContent img {
+    width: 100%;
+}
+
+.workoutContent h1 {
+    font-size: 30px;
+}
+
+.workoutContent p {
+    font-size: 13px;
+}
+
+.emphasizeText {
+    font-weight: 700;
+    text-shadow: 1px 0 1px beige;
+}

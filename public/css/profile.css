@@ -1,0 +1,102 @@
+@media screen and (min-width: 551px) {
+    .profileField {
+        padding: 2%;
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .profileField {
+        padding: 3%;
+        width: 95%;
+    }
+}
+
+.profileContent {
+    margin: 0 auto;
+    padding: 1%;
+    border: 2px solid beige;
+    border-radius: 10px;
+}
+
+.profileEnter {
+    color: beige;
+    text-align: right;
+    margin-top: 1%;
+}
+
+.profilePicture {
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 80px;
+    background-color: beige;
+}
+
+.profilePictureContainer {
+    width: 60%;
+    border: 2px solid beige;
+    background-color: beige;
+    border-radius: 10px;
+    opacity: .7;
+    /*    margin-bottom: 3%;*/
+    float: left;
+    clear: right;
+}
+
+.smallProfileDisplay {
+    width: 38%;
+    float: right;
+}
+
+.largeProfileDisplay {
+    width: 95%;
+    /*    height: 250px;*/
+    background-color: black;
+    border: none;
+    font-size: 12px;
+}
+
+.smallProfileDisplay {
+    background-color: black;
+    opacity: 1;
+    border: none;
+    font-size: 11px;
+    margin-bottom: 1%;
+}
+
+.enterFieldInput {
+    width: 95%;
+    background-color: black;
+    /*    float: right;*/
+}
+
+.enterFieldInputLarge {
+    width: 95%;
+    height: 150px;
+    background-color: black;
+}
+
+.profileField h1 {
+    float: right;
+}
+
+.contactPage textarea {
+    height: 200px;
+}
+
+.calenderInput {
+    background-color: black;
+    margin: 4%;
+}
+
+.instructorCalender {
+    width: 100%;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}

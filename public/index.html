@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Metamorphosis</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!--    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">-->
+
+    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+
+    <!-- CSS –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/background.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/account.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/slidewindow.css">
+    <link rel="stylesheet" href="css/workout.css">
+
+    <!-- Favicon  ---––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/lion.png">
+
+    <!--    libraries ------------------------------------------------>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js" integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!--    facebook feed code-->
+
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+    </script>
+
+    <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container">
+
+        <!--       nav bar for 550+  -->
+        <div class="navigationDiv">
+            <div class="row" id="fullNavBar">
+
+
+                <div class="two columns">
+                    <img src="images/lion.png" alt="lion" class="lionLogo navigationLink" id="home">
+                </div>
+                <div class="two columns navigationLink">
+                    <button id="workout">Workout</button>
+                </div>
+
+
+                <div class="two columns navigationLink">
+                    <button id="account">Log In</button>
+                </div>
+
+                <div class="two columns navigationLink">
+                    <button id="profile">Profile</button>
+                </div>
+
+                <div class="two columns navigationLink">
+                    <button id="contact">Contact</button>
+                </div>
+
+
+                </ul>
+
+            </div>
+
+            <!--       navbar for mobile <550  -->
+            <div class="row mobileHamburgerNav">
+                <div class="three columns">
+                    <img src="images/lion.png" alt="lion" class="lionLogo navigationLink" id="home">
+                </div>
+
+                <div class="two columns">
+                    <img class="navigationLink navIcon" id="workout" src="images/weighticon.jpg">
+                </div>
+                <div class="two columns">
+                    <img class="navigationLink navIcon" id="account" src="https://attonasi.github.io/112-final-project/public/images/lockicon.jpg">
+                </div>
+                <div class="two columns">
+                    <img class="navigationLink navIcon" id="profile" src="https://attonasi.github.io/112-final-project/public/images/profilelinkicon.png">
+                </div>
+                <div class="two columns">
+                    <img class="navigationLink navIcon" id="contact" src="https://attonasi.github.io/112-final-project/public/images/postad.png">
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="homePage">
+
+            <div class="homeWidget">
+                <h1>Today's Youtube</h1>
+                <iframe width="350" height="197" src="https://www.youtube.com/embed/fwLBTwDo1A8" frameborder="0" allowfullscreen></iframe>
+                <a href="https://www.youtube.com/channel/UCQVDK6ZTIi_j5KnSQXZC3Mw/videos?view=0&shelf_id=0&sort=dd">
+                    <p>Check out other videos on the channel.</p>
+                </a>
+            </div>
+
+            <div class="row homePageContainer">
+                <div class="homeContent navigationLink">
+                    <img src="https://attonasi.github.io/112-final-project/public/images/background1.jpg" class="sectionBackgroundImage" id="workout">
+                    <h1>Metamorphosis and Revelation</h1>
+                    <p>My name is Collin Smith and welcome to my personal training site. It is my goal to help you not just with the physical skills of training, but to show you how to enjoy and look forward to getting in better shape. Every day you will look forward to working out.</p>
+                </div>
+
+                <div class="homeContent navigationLink" id="account">
+                    <img src="https://attonasi.github.io/112-final-project/public/images/background2.jpg" class="sectionBackgroundImage" id="account">
+                    <h1>Account</h1>
+                    <p>Manage your account. Here you can create an account and join the team. Keep your login and contact information up to date.</p>
+                </div>
+
+                <div class="homeContent navigationLink" id="profile">
+                    <img src="https://attonasi.github.io/112-final-project/public/images/background3.jpg" class="sectionBackgroundImage" id="profile">
+                    <h1>Personal Profile</h1>
+                    <p>Create your own profile page. In addition to the standard personal information I want to help you set goals and create a daily plan that makes achieving those goals your goal.</p>
+                </div>
+
+                <div class="homeContent navigationLink" id="contact">
+                    <img src="https://attonasi.github.io/112-final-project/public/images/backgroundpic.jpg" class="sectionBackgroundImage" id="contact">
+                    <h1>Contact Information</h1>
+                    <p>This page is a link to my personal information. There is detailed information about how to contact me and set up appointments as well as my training background and skills. </p>
+                </div>
+                <div class="leftColumn">
+                    <img src="images/facebookbutton2.png" alt="slide button" class="slideButton">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="workoutPage hidden">
+            <div class="row workoutPageContainer">
+                <div class="workoutContent">
+
+                    <h1 class="twelve columns">Use your time Wisely</h1>
+
+                    <img src="images/heavy.jpg" alt="weights" class="six columns workoutImage">
+
+                    <p class="workoutPText">Unless you are a professional athlete you don't have 8 hours a day to workout. You have 1 or 2 hours 4 or 5 days a week. To be honest I can show you how 1 hour a day 4 days a week is enough if you are consistent and you execute a well developed strategy. </p>
+
+                </div>
+
+                <div class="workoutContent">
+
+                    <h1 class="twelve columns">Core Exercize Philosophy</h1>
+
+                    <img src="images/mirror1.jpg" alt="weights" class="six columns workoutImage">
+
+                    <p class="workoutPText">The core philosophy is high intensity training and heavy full body motion weight training. These are the workouts that consistently result in the most effective outcomes in scientific studies. Curls and Jogging are the cheeseburgers of workouts. Do workouts that make your stronger and more conditioned.</p>
+                </div>
+
+                <div class="workoutContent">
+
+                    <h1 class="twelve columns">Goals. Strategy. Tactics. Execute.</h1>
+
+                    <img src="images/background3.jpg" alt="weights" class="six columns workoutImage">
+
+                    <p class="workoutPText">When you go to the gym you are surrounded by people who are there because they are there. They go to the gym. They run on the treadmill and do som curls. They do the same exercises every week. You can see where this ends. The same place it starts. <span class="emphasizeText">Let me help you get to your goals.</span> </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accountPage hidden">
+            <div class="login-page">
+                <div class="form">
+                    <form class="register-form">
+                        <input type="text" id="newEmailAddress1" placeholder="New Login ID(Email Address)" class="accountInput" />
+                        <input type="text" id="newEmailAddress2" placeholder="Retype New ID(Email Address)" class="accountInput" />
+                        <input type="password" id="newPassWord1" placeholder="Password" class="accountInput" />
+                        <input type="password" id="newPassWord2" placeholder="Retype Password" class="accountInput" />
+
+                        <button id="createAccountButton">Create your account!</button>
+                        <p class="message">Already registered? <a href="#">Sign In!</a></p>
+                    </form>
+                    <form class="login-form">
+                        <input type="text" id="nameEnter" placeholder="Username" class="accountInput" />
+                        <input type="password" id="userPasswordAttempt" placeholder="Password" class="accountInput" />
+                        <button id="loginButton">Login!</button>
+                        <p class="message">Not registered? <a href="#">Create an account!</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="profilePage hidden">
+            <div class="profileField">
+                <form class="profileDisplay profileContent">
+                    <h1>The Profile Builder: Preview</h1>
+                    <div class="profilePictureContainer">
+                        <img src="images/defaultprofile.jpg" id="pictureEnterDisplayField" alt="default profile picture" class="profilePicture">
+                    </div>
+                    <div class="smallProfileDisplayField">
+                        <input type="text" id="bargleEnterDisplayField" placeholder="Name" class="smallProfileDisplay" required/>
+                    </div>
+                    <div class="smallProfileDisplayField">
+                        <input type="text" id="titleEnterDisplayField" placeholder="Title" class="smallProfileDisplay" required/>
+                    </div>
+                    <div class="smallProfileDisplayField">
+                        <input type="text" id="phoneEnterDisplayField" placeholder="Phone Number" class="smallProfileDisplay" required/>
+                    </div>
+                    <div class="smallProfileDisplayField">
+                        <input type="text" id="emailEnterDisplayField" placeholder="Email Address" class="smallProfileDisplay" required/>
+                    </div>
+                    <div class="largeProfileDisplayField">
+                        <textarea type="text" id="goalsEnterDisplayField" placeholder="Your fitness goals" class="largeProfileDisplay"></textarea>
+                    </div>
+
+                    <button type="submit" class="submitFormButton" id="submitForm">Click here to update your Profile</button>
+                </form>
+
+
+
+                <form class="profileEnter profileContent">
+                    <h1>Enter your Information in these fields</h1>
+                    <div class="enterFieldDiv">
+                        <input type="text" id="bargleEnter" placeholder="Name" class="enterFieldInput" />
+                    </div>
+                    <div class="enterFieldDiv">
+                        <input type="url" id="profileEnter" placeholder="Profile Picture Url" class="enterFieldInput" /><button class="enterFieldButton" type="button" id="urlEnter">Change Picture</button>
+                    </div>
+
+                    <div class="enterFieldDiv">
+                        <input type="text" id="titleEnter" placeholder="Title" class="enterFieldInput" />
+                    </div>
+                    <div class="enterFieldDiv">
+                        <input type="text" id="phoneEnter" placeholder="Phone" class="enterFieldInput" />
+                    </div>
+                    <div class="enterFieldDiv">
+                        <input type="text" id="emailEnter" placeholder="Email" class="enterFieldInput" />
+                    </div>
+                    <div class="enterFieldDiv">
+                        <textarea type="text" id="goalsEnter" placeholder="Type a short description of your fitness goals here" class="enterFieldInputLarge"></textarea>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+        <div class="contactPage hidden">
+
+            <div class="instructorTableDiv profileField u-pull-right u-cf">
+                <h1>My Schedule</h1>
+                <input type="date" id="calenderMonth" class="calenderInput">
+                <table class="instructorCalender"></table>
+            </div>
+
+
+            <div class="profileField u-cf">
+
+
+                <!--               <h2>Wherever you go - There you are</h2>-->
+                <div class="profilePictureContainer">
+                    <img src="images/profilepic.jpg" id="pictureEnterDisplayField" alt="default profile picture" class="profilePicture">
+                </div>
+                <div class="smallProfileDisplayField">
+                    <input type="text" id="bargleCollinsProfile" placeholder="Enter Name" class="smallProfileDisplay" required/>
+                </div>
+                <div class="smallProfileDisplayField">
+                    <input type="text" id="titleCollinsProfile" placeholder="Enter Title" class="smallProfileDisplay" required/>
+                </div>
+                <div class="smallProfileDisplayField">
+                    <input type="text" id="phoneCollinsProfile" placeholder="Enter Phone Number" class="smallProfileDisplay" required/>
+                </div>
+                <div class="smallProfileDisplayField">
+                    <input type="text" id="emailCollinsProfile" placeholder="Enter Email Address" class="smallProfileDisplay" required/>
+                </div>
+                <div class="smallProfileDisplayField">
+                    <ul class="smallProfileDisplay">My Fitness Goals:
+                        <li>1300lbs totl weight.</li>
+                        <li>29 inch waste.</li>
+                        <li>Able to kick/punch tires indefinitely.</li>
+                    </ul>
+                </div>
+
+                <div class="twelve columns instructorProfileTarget"></div>
+
+            </div>
+        </div>
+
+
+
+        <div class="slideWindow">
+
+            <div class="fb-post" data-href="https://www.facebook.com/collin.smith.5209/posts/1362693777158584" data-width="350" data-show-text="false">
+                <blockquote cite="https://www.facebook.com/collin.smith.5209/posts/1362693777158584" class="fb-xfbml-parse-ignore">
+                    <p>Learning to use Facebook. Just posting a pic of the redkneck punching bag.</p>Posted by <a href="https://www.facebook.com/collin.smith.5209">Collin Smith</a> on&nbsp;<a href="https://www.facebook.com/collin.smith.5209/posts/1362693777158584">Wednesday, June 7, 2017</a></blockquote>
+            </div>
+
+        </div>
+
+
+
+        <script type="text/javascript" src="scripts/nav.js"></script>
+        <script type="text/javascript" src="scripts/profile.js"></script>
+        <script type="text/javascript" src="scripts/login.js"></script>
+        <script type="text/javascript" src="scripts/calender.js"></script>
+        <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>
