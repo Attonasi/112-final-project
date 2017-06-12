@@ -5,10 +5,10 @@
         text-shadow: 1px 0px 1px beige;
     }
     .container {
-        background-image: url("https://attonasi.github.io/112-final-project/public/images/portrait-background-1.jpg");
+        background-image: url("https://attonasi.github.io/personaltrinainerapp/public/images/portrait-background-1.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        /*        z-index: -10;*/
+        background-color: black;
         background-attachment: fixed;
         border-radius: 10px;
         margin 0 auto;
@@ -23,7 +23,7 @@
         padding: .5%;
     }
     .container {
-        background-image: url("https://attonasi.github.io/112-final-project/public/images/ascend.jpg");
+        background-image: url("https://attonasi.github.io/personaltrinainerapp/public/images/ascend.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-color: black;
@@ -42,7 +42,7 @@
         padding: .5%;
     }
     .container {
-        background-image: url("https://attonasi.github.io/112-final-project/public/images/background-mirror.jpg");
+        background-image: url("https://attonasi.github.io/personaltrinainerapp/public/images/background-mirror.jpg");
         background-repeat: no-repeat;
         background-size: contain;
         background-color: black;
